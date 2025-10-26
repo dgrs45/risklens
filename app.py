@@ -9,13 +9,12 @@ from scipy import stats
 import statsmodels.api as sm
 import plotly.express as px
 import plotly.graph_objects as go
-
-
 #core imports 
-from core.data_engine import fetch_adjusted_close, fetch_latest_price
-from core.risk_engine import compute_factor_betas, annualize_volatility, marginal_contribution_to_risk
-from core.scenario_engine import simulate_scenario
-from core.utils import load_portfolio_csv, format_rupee
+
+import risklens_core.data_engine as data_engine
+import risklens_core.risk_engine as risk_engine
+import risklens_core.scenario_engine as scenario_engine
+import risklens_core.utils as utils
 
 
 st.set_page_config(page_title="RiskLens — Portfolio Risk & Scenario Simulator", layout="wide")
