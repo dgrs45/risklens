@@ -1,5 +1,5 @@
-
-
+#need to check beta calculation - not sure why it is not working
+import matplotlib.pyplot as plt
 import streamlit as st
 import pandas as pd
 import numpy as np
