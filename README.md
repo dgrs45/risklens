@@ -4,7 +4,7 @@
 
 ---
 
-### 🧠 What It Does
+### What It Does
 - Upload a CSV of your holdings (`ticker, shares, avg_price`)
 - Fetches real-time market prices from Yahoo Finance  
 - Calculates portfolio value, returns, volatility, and betas  
@@ -14,7 +14,7 @@
 
 ---
 
-### ⚙️ Quick Start
+### Quick Start
 
 ```bash
 git clone https://github.com/<your-username>/risklens.git
